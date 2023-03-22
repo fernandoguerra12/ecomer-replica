@@ -257,3 +257,17 @@ img {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+/* *PAGINA NOSOTRO */
+.contenedor-nosotro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fra));
+  column-gap: 4rem;
+}
+
+.nosotro-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
