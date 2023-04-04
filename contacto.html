@@ -31,21 +31,24 @@
 
     <main class="contenedor">
       <h2 class="text-center">Contacto</h2>
-      <form action="#">
+      <form action="#" class="formulario">
         <fieldset>
           <legend>Tu Datos</legend>
           <div class="campo">
             <label for="nombre">Nombre:</label>
             <input
+              class="input"
               type="text"
               name="nombre"
               id="nombre"
               placeholder="Tu Nombre"
+              required
             />
           </div>
           <div class="campo">
             <label for="asunto">Asunto:</label>
             <input
+              class="input"
               type="text"
               name="asunto"
               id="asunto"
@@ -55,6 +58,7 @@
           <div class="campo">
             <label for="emai">Email:</label>
             <input
+              class="input"
               type="email"
               name="email"
               id="email"
@@ -64,6 +68,7 @@
           <div class="campo">
             <label for="telefono">Telefono:</label>
             <input
+              class="input"
               type="tel"
               name="telefono"
               id="telefono"
@@ -72,7 +77,12 @@
           </div>
           <div class="campo">
             <label for="mensaje">Mensaje:</label>
-            <textarea name="mensaja" id="mensaje" cols="10" rows="1"></textarea>
+            <textarea
+              name="mensaja"
+              id="mensaje"
+              cols="10"
+              rows="10"
+            ></textarea>
           </div>
         </fieldset>
         <fieldset>
