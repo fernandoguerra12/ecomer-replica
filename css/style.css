@@ -269,6 +269,21 @@ img {
   text-transform: uppercase;
 }
 
+/* *NOSOTRO */
+.contenedor-nosotro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+
+.nosotro-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
 /* *BLOG */
 .contenedor-blog {
   display: grid;
